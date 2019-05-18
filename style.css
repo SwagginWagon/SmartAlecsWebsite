@@ -105,6 +105,10 @@ nav ul li img {
     transition: background-color 0.6s ease;
 }
 
+.dots {
+    margin-bottom: 3em;
+}
+
 .active, .dot:hover {
     background-color: #717171;
   }
@@ -147,15 +151,17 @@ nav ul li img {
     margin-top: 3em;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 5em;
 }
 
 .card {
     background-color: rgb(63, 57, 57);
     color: rgb(255, 157, 164);
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
 }
 
 .about {
@@ -166,9 +172,10 @@ nav ul li img {
     width: 50%;
     font-size: 1.5em;
     float: left;
-    height: 40vh;
+    height: 50vh;
     margin-top: 3em;
     left: 0;
+    margin-bottom: 3em;
 }
 
 .about h1 {
@@ -181,10 +188,11 @@ nav ul li img {
 
 .videos {
     width: 50%;
-    height: 40vh;
+    height: 50vh;
     float: left;
     margin-top: 3em;
     right: 0;
+    margin-bottom: 3em;
 }
 
 .frontPageVideo {
@@ -195,4 +203,62 @@ nav ul li img {
 footer {
     clear: both;
     background-color: rgb(0, 0, 0);
+    height: 20vh;
+    margin-top: 5em;
+}
+
+.copyright {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 3.5em;
+    margin-left: 3em;
+}
+
+.socialMedia {
+    float: right;
+    margin-right: 3em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 2.5em;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.break {
+    height: 2px; 
+    border: none; 
+    color: rgb(126, 118, 118); 
+    background-color: rgb(126, 118, 118); 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
 }
